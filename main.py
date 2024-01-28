@@ -7,7 +7,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 
 if __name__ == '__main__':
-    application = ApplicationBuilder().token('6677178562:AAFKIwe6f-lyDVkegnMPzaz7ijos218CUMU').build()
+    application = ApplicationBuilder().token('').build()
 
     # Add command handlers
     application.add_handler(help_handler)
